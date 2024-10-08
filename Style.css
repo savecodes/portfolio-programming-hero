@@ -12,6 +12,10 @@
     background-position: top left, bottom right;
 }
 
+.secoundry-bg{
+    background-color: #fff8f3;
+}
+
 .text-primery {
     color: #FD6E0A;
 }
@@ -30,6 +34,18 @@
     border-radius: 5px;
 
 }
+
+.secction-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.secction-descriptions{
+    font-size: 18px;
+    color: #757575;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -88,4 +104,28 @@ nav li a {
 
 .banner-profile-pic{
     width: 580px;
+}
+
+/* About Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 400;
+    font-size: small;
 }
